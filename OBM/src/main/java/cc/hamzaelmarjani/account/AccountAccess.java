@@ -14,7 +14,6 @@ public class AccountAccess {
         database = new BankDatabase();
         consoleReadWithType = new ConsoleReadWithType();
         consoleLog = new ConsoleLog();
-
     }
 
     public void loginByAccountNumber() {
@@ -37,9 +36,9 @@ public class AccountAccess {
     }
 
     static Account getAccountByNumber(String accountNumber) {
-        for (var i = 0; i < database.accounts.length; i++) {
-            if (database.accounts[i].getAccountNumber().equals(accountNumber)) {
-                return database.accounts[i];
+        for (Account account : database) {
+            if (account.getAccountNumber().equals(accountNumber)) {
+                return account;
             }
         }
         return null;

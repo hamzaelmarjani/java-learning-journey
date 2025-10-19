@@ -33,12 +33,12 @@ public class ConsoleLog {
         System.out.println();
 
         System.out.println("---------------------------------");
-        for (var i = 0; i < accounts.length; i++) {
+        for (var i = 0; i < accounts.size(); i++) {
             System.out.println("Account " + (i + 1) + ":");
-            System.out.println("  • Login: " + accounts[i].getAccountNumber());
-            System.out.println("  • Password: " + accounts[i].getPassword());
+            System.out.println("  • Login: " + accounts.get(i).getAccountNumber());
+            System.out.println("  • Password: " + accounts.get(i).getPassword());
             System.out.println("---------------------------------");
-            if (i + 1 >= accounts.length) {
+            if (i + 1 >= accounts.size()) {
                 System.out.println();
             }
         }
