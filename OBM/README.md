@@ -50,6 +50,8 @@ From the menu, select one of the available actions, you want the program to perf
 💼 What do you want to do today?
 
 H: Help • Q: Quite • L: Log-out • B: Balance • A: Add Balance • T: Transfer Money • D: Account Created Date • R: Remove Account
+
+Action:
 ```
 
 - H: Help.
@@ -60,9 +62,3 @@ H: Help • Q: Quite • L: Log-out • B: Balance • A: Add Balance • T: Tra
 - T: Transfer money.
 - D: Account created date.
 - R: Remove account.
-
----
-
-NOTE: This is a learning journey. You may find mistakes in the code; if you do, please let me know — I’m open to all advice 🙏.
-
-Thanks for your time 🤗
