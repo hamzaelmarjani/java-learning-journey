@@ -19,7 +19,6 @@ This CLI program is a simple system information gathering tool that allows users
 - Polymorphism
 - Exceptions
 - Generics
-- Streams
 
 ### CLI Usage:
 
