@@ -16,6 +16,12 @@ This CLI program is a simple online banking system that allows users to perform 
 
 ---
 
+## [2. (SIG) System Info Gathering](https://github.com/hamzaelmarjani/java-learning-journey/tree/main/SIG) 📖
+
+This CLI program is a simple system information gathering tool that allows users to collect a variety of information about their system, including hardware and software details.
+
+---
+
 NOTE: This is a learning journey. You may find mistakes in the code; if you do, please let me know — I’m open to all advice 🙏.
 
 Thanks for your time 🤗
